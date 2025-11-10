@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1100px;
+    margin: 30px auto;
+}
+header{
+    border: 1px solid rgb(226, 178, 22);
+    background-color: rgb(226, 178, 22);
+}
+.block{
+    margin: 20px 0 50px 220px;
+}
+.sitename{
+    margin-bottom: 10px;
+    font: 20px Arial;
+}
+nav{
+    display: flex;
+    width: 600px;
+    border: 1px solid black;
+}
+.container{
+    display: flex;
+}
+.container img{
+    width: 620px;
+}
+main{
+    width: 660px;
+    padding: 20px;
+}
+.left{
+    width: 660px;
+    margin-right: 20px;
+    padding: 20px;
+    font: 15px Arial;
+}
+.right{
+    width: 400px;
+    margin-left: 20px;
+    padding: 20px;
+    text-align: justify;
+    font: 15px Arial;
+}
+footer{
+    padding: 30px 0;
+    border: 1px solid rgb(226, 178, 22);
+    text-align: center;
+    background-color: rgb(226, 178, 22);
+    color: white;    
+}
+nav{
+    display: flex;
+    width: 600px;
+    border: none;
+}
+nav a{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font: 15px Arial;
+}
+nav a:hover, nav a :active{
+    color: red;
+    text-decoration: underline;
+}
+main h2{
+    font: 20px "Times New Roman";
+    font-weight: bold;
+}
+main p{
+    margin: 10px 0;
+    text-align: justify;
+    font: 15px Arial;
+}
+.right h3{
+    font: 20px "Times New Roman";
+    font-weight: bold;   
+}
+table, table th{
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 620px;
+}
+table thead{
+    background-color: rgb(241, 223, 247);
+}
+tbody th{
+ font-weight: normal;
+}
